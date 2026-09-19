@@ -37,6 +37,7 @@
 ## Logging during feature validation
 - Add focused temporary logging when needed to verify runtime behavior.
 - Log inputs, decisions, and side effects relevant to the feature.
+- Never log secrets, credentials, tokens, or personal/sensitive data.
 - Keep logging narrow and searchable.
 
 ## Cleanup after validation
@@ -47,6 +48,7 @@
 ## Workflow improvement
 - Treat the workflow as an engineering asset and improve it continuously.
 - Remove repeated manual steps by introducing reusable scripts and documentation.
+- By default, store reusable automation in `scripts/` and document usage in `scripts/README.md` (or an equivalent documented location).
 - Prefer grouped validation and low-overhead checks to reduce iteration time.
 - Keep the process simple enough for new contributors and future AI sessions.
 
