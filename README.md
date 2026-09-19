@@ -1,6 +1,8 @@
-Ai Workflow rules for best performance (Still yet in development)
-mainly used for mod development for a indie game
+# AI Workflow Rules
 
-# How to use
-1. Import file in project
-2. Tell the AI, that this file is the worflow rule for working on the project
+General-purpose workflow rules for AI-assisted software development projects.
+
+## How to use
+1. Copy `AI_WORKFLOW_RULES.md` (or its contents) into your project.
+2. Tell your AI assistant to use it as the project workflow/rules file.
+3. Adjust sections to match your repository conventions, tooling, and release process.
